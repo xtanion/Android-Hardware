@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BluetoothWidget" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/saturated_blue</item>
+        <item name="colorSecondaryVariant">@color/muted_white</item>
+        <item name="colorOnSecondary">@color/not_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="cardBackgroundColor">@color/card_white</item>
+        <item name="fontFamily">@font/sf_pro_text_regular</item>
+        <item name="android:navigationBarColor">?attr/cardBackgroundColor</item>
+    </style>
+
+    <style name="Theme.BluetoothWidget.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">8dp</item>
+        <item name="appWidgetPadding">4dp</item>
+        <item name="appWidgetInnerRadius">4dp</item>
+    </style>
+
+    <style name="Theme.BluetoothWidget.AppWidgetContainer" parent="Theme.BluetoothWidget.AppWidgetContainerParent" />
+</resources>

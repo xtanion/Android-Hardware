@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bluetooth Widget</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bluetooth_devices">Bluetooth Devices</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="device_1_device_2_device_3">Device 1, Device 2, Device 3</string>
+    <string name="widgets">Widgets</string>
+    <string name="connected_devices">Connected Devices</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>
